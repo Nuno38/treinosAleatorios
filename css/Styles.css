@@ -57,14 +57,24 @@ body{
 }
 .display{
    width: 400px;
+   text-align: right;
    
 }
 .btn{
     align-items: center;
-    border-radius: 8px solid black;
-    width: 96px;
-    size:6px;
+    border-radius: 4px ;
+    width: 100%;
+    font-size: 1em;
+    height: 30px;
+    background-color:rgb(230, 230, 230);
+    cursor: pointer;
 }
-.btn :focus{
 
+.btn:hover{
+  background:  rgb(185, 183, 183);
+  
+}
+
+.calculadora{
+  margin: 0px 0px 0px 90px;
 }
