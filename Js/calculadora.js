@@ -1,7 +1,7 @@
+
 function criaCalculadora() {
   return {
     display: document.querySelector('.display'),
-
 
 
     inicia() {
@@ -11,7 +11,7 @@ function criaCalculadora() {
     cliqueBotoes() {
       document.addEventListener('click', function (e) {
         const el = e.target;
-        console.log(this);
+        
 
         if (el.classList.contains('btn-num')) {
           this.btnParaDisplay(el.innerText);
