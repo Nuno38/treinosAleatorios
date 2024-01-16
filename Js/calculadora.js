@@ -15,7 +15,7 @@ function criaCalculadora(){
           const el = e.target;
 
           if(el.classList.contains('btn-num')){
-            btnParaDisplay();
+            this.btnParaDisplay();
           }
       
         });
