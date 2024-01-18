@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+:root{
+    --cor-das-letras:black;
+    --fonte-das-letras: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400&display=swap');
+    --tamanho-da-fonte:20px;
+    
+   
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url('../Imagens/codigo.jpg');
+    background-size: 100%;
+}
+
+.nav-item{
+font-size: var(--tamanho-da-fonte);
+font-family:Arial, Helvetica, sans-serif;
+margin: 0px 10px 0px 4px;
+}
+.navbar{
+  background-color: rgb(255, 255, 255) !important;
+}
+.icone-img{
+    width: 65px;
+}
+.card{
+    max-width: 640px;
+    margin:380px 0px 0px 10px;
+    background-color: darkgrey;
+    padding: 25px;
+    border-radius: 12px;
+    align-items: center;
+    font-family: var(--fonte-das-letras);
+    font-size: var(--tamanho-da-fonte);
+}
+.linha{
+    
+    border: 2px solid #fff;
+}
+.sobre-card{
+    max-width: 640px;
+    height: 130px;
+    margin:-160px 0px 0px 16px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    align-items: center;
+    font-family: var(--fonte-das-letras);
+    font-size: var(--tamanho-da-fonte);
+}
