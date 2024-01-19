@@ -56,20 +56,24 @@ body{
    align-items: center;
 }
 .display{
-   width: 400px;
+   width:99%;
+   margin: 0px 0px 0px 59px;
+   text-align: right;
    
 }
 .btn{
-    align-items: center;
+    
     border-radius: 8px solid black;
-    width: 96px;
-    size:6px;
+    margin: 10px -50px -8px 64px;
+    width: 100px;
+    height: 36px;
+    
 }
 .btn-voltar{
     align-items: center;
     border-radius: 18px solid black;
     width: 96px;
-    size:6px;
+    
 }
 .bnt-link{
     text-decoration: none;
